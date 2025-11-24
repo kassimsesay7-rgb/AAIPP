@@ -1,0 +1,7 @@
+<!doctype html>
+<title>Dashboard</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sakura.css/css/sakura.css">
+<h2>Welcome, {{ username }}!</h2>
+<form method="post" action="{{ url_for('logout') }}">
+  <button type="submit">Logout</button>
+</form>

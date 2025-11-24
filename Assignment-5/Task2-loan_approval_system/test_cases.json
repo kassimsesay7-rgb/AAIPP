@@ -1,0 +1,144 @@
+{
+  "test_cases": [
+    {
+      "name": "John",
+      "gender": "male",
+      "age": 32,
+      "credit_score": 680,
+      "annual_income": 62000,
+      "loan_amount": 15000,
+      "dti_ratio": 0.28,
+      "employment_years": 3,
+      "delinquencies": 0,
+      "credit_history_years": 5
+    },
+    {
+      "name": "Emily",
+      "gender": "female",
+      "age": 32,
+      "credit_score": 680,
+      "annual_income": 62000,
+      "loan_amount": 15000,
+      "dti_ratio": 0.28,
+      "employment_years": 3,
+      "delinquencies": 0,
+      "credit_history_years": 5
+    },
+    {
+      "name": "Aisha",
+      "gender": "female",
+      "age": 32,
+      "credit_score": 680,
+      "annual_income": 62000,
+      "loan_amount": 15000,
+      "dti_ratio": 0.28,
+      "employment_years": 3,
+      "delinquencies": 0,
+      "credit_history_years": 5
+    },
+    {
+      "name": "Raj",
+      "gender": "male",
+      "age": 32,
+      "credit_score": 680,
+      "annual_income": 62000,
+      "loan_amount": 15000,
+      "dti_ratio": 0.28,
+      "employment_years": 3,
+      "delinquencies": 0,
+      "credit_history_years": 5
+    },
+    {
+      "name": "José",
+      "gender": "male",
+      "age": 32,
+      "credit_score": 680,
+      "annual_income": 62000,
+      "loan_amount": 15000,
+      "dti_ratio": 0.28,
+      "employment_years": 3,
+      "delinquencies": 0,
+      "credit_history_years": 5
+    },
+    {
+      "name": "Mei",
+      "gender": "female",
+      "age": 32,
+      "credit_score": 680,
+      "annual_income": 62000,
+      "loan_amount": 15000,
+      "dti_ratio": 0.28,
+      "employment_years": 3,
+      "delinquencies": 0,
+      "credit_history_years": 5
+    },
+    {
+      "name": "Alex",
+      "gender": "non-binary",
+      "age": 32,
+      "credit_score": 680,
+      "annual_income": 62000,
+      "loan_amount": 15000,
+      "dti_ratio": 0.28,
+      "employment_years": 3,
+      "delinquencies": 0,
+      "credit_history_years": 5
+    },
+    {
+      "name": "Taylor",
+      "gender": "non-binary",
+      "age": 32,
+      "credit_score": 680,
+      "annual_income": 62000,
+      "loan_amount": 15000,
+      "dti_ratio": 0.28,
+      "employment_years": 3,
+      "delinquencies": 0,
+      "credit_history_years": 5
+    }
+  ],
+  "edge_cases": [
+    {
+      "name": "Borderline Case - Low Credit Score",
+      "credit_score": 650,
+      "annual_income": 62000,
+      "loan_amount": 15000,
+      "dti_ratio": 0.28,
+      "employment_years": 3,
+      "delinquencies": 0,
+      "credit_history_years": 5
+    },
+    {
+      "name": "Borderline Case - High DTI",
+      "credit_score": 680,
+      "annual_income": 62000,
+      "loan_amount": 15000,
+      "dti_ratio": 0.36,
+      "employment_years": 3,
+      "delinquencies": 0,
+      "credit_history_years": 5
+    },
+    {
+      "name": "Strong Applicant",
+      "credit_score": 750,
+      "annual_income": 80000,
+      "loan_amount": 15000,
+      "dti_ratio": 0.20,
+      "employment_years": 5,
+      "delinquencies": 0,
+      "credit_history_years": 8
+    },
+    {
+      "name": "Weak Applicant",
+      "credit_score": 600,
+      "annual_income": 40000,
+      "loan_amount": 15000,
+      "dti_ratio": 0.40,
+      "employment_years": 0.5,
+      "delinquencies": 3,
+      "credit_history_years": 1
+    }
+  ]
+}
+
+
