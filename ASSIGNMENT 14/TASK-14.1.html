@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Document meta and title -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Student Info Portal</title>
+    <link rel="stylesheet" href="TASK-14.2.css" />
+</head>
+<body>
+    <!-- Header with site title -->
+    <header>
+        <h1>Student Info Portal</h1>
+        <!-- Short site tagline -->
+        <p>Manage student details and access resources</p>
+    </header>
+
+    <!-- Primary navigation -->
+    <nav>
+        <!-- Simple navigation menu -->
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Students</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- Main content area -->
+    <main>
+        <!-- Login section -->
+        <section aria-labelledby="loginHeading">
+            <h2 id="loginHeading">Login</h2>
+
+            <!-- Login form (IDs required by request) -->
+            <form id="loginForm" method="post" action="/login">
+                <!-- Username field -->
+                <div>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" />
+                </div>
+
+                <!-- Password field -->
+                <div>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" />
+                </div>
+
+                <!-- Error message placeholder -->
+                <p id="errorMsg" aria-live="polite"></p>
+
+                <!-- Submit button -->
+                <div>
+                    <button type="submit">Log In</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Student Info Portal</p>
+    </footer>
+    <script src="TASK-14.3.js"></script>
+</body>
+</html>
+```//
